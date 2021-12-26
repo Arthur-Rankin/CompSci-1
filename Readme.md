@@ -5,7 +5,7 @@
 ### List of Programs
 - 401k program: 
     - Use to calculate your 401k after n years. Follow the cout prompts. 
--Chapter 5: Loops and Files
+- Chapter 5: Loops and Files
     - outputLoop Program: 
         - Loops 10 times to print the numbers 1 - 10 to an `outputFile` Uses `<fstream>` header file to create a file called `numbers.txt`.
     - inputLoop Program: 
