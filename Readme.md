@@ -6,4 +6,4 @@
 - 401k program: 
     - Use to calculate your 401k after n years. Follow the cout prompts. 
 - LoopsAndFiles Program: 
-    - loops 10 times to print the numbers 1 - 10 to an `outputFile` Uses `<fstream>` header file to create a file called `numbers.txt`.
+    - Loops 10 times to print the numbers 1 - 10 to an `outputFile` Uses `<fstream>` header file to create a file called `numbers.txt`.
