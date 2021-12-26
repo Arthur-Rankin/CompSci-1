@@ -14,6 +14,11 @@ int main()
         {
             cout << num << "," << setw(3);
         };
+    }
+    else
+    {
+        cout << "\tTHE FILE DOES NOT EXIST\n";
+        cout << "\tRun the outputLoop program to create the needed file";
     };
     
     return 0;
