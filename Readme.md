@@ -9,4 +9,4 @@
     - outputLoop Program: 
         - Loops 10 times to print the numbers 1 - 10 to an `outputFile` Uses `<fstream>` header file to create a file called `numbers.txt`.
     - inputLoop Program: 
-        - Reades the file created by outputLoop program and displays the information.
+        - Reades the file created by outputLoop program and displays the information. I am careful to check to make sure that they file exists. The while loop checks to make sure that an item still exists to print out to the console.
