@@ -1,22 +1,33 @@
 #include <iostream>
 using namespace std;
 
-void first();
-void second();
+double isEven(int);
 
 int main()
 {
-    first();
-    second();
     return 0;
 }
 
-void first()
+double isEven(int rate, int time)
 {
-    cout << "hello form first\n";
+    double status;
+    return status;
 }
 
-void second()
+int days(int years, int months, int weeks)
 {
-    cout << "hello from second\n";
+    int x;
+    return x;
+}
+
+char getKey()
+{
+    char x;
+    return x;
+}
+
+long lightYears(long miles)
+{
+    long x;
+    return x;
 }
