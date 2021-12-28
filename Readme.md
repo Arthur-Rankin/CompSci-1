@@ -13,3 +13,5 @@
 - Chapter 6: Functions
     - evenOrOdd program 
         - simple program that checks to see if a number given by the user is even or odd and then tells the user which it is. 
+- Chapter 7: Arrays and Vectors
+    - 
