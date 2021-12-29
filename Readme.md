@@ -16,3 +16,5 @@
 - Chapter 7: Arrays and Vectors
     - funcsLoopsAndArrays program:
         - a program that has three functions that all have their own type of array. 
+    - numericArray program:
+        - performing sum, average, highest, and lowest algorithms on numeric arrays
