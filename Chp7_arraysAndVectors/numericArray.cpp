@@ -56,7 +56,7 @@ int highest()
     int highest;
 
     highest = numbers[0];
-    for(count = 0; count < SIZE; count++)
+    for(count = 1; count < SIZE; count++)
     {
         if (numbers[count] > highest)
         {
@@ -77,7 +77,7 @@ int lowest()
     int lowest;
 
     lowest = numbers[0];
-    for(count = 0; count < SIZE; count++)
+    for(count = 1; count < SIZE; count++)
     {
         if(numbers[count] < lowest)
         {
