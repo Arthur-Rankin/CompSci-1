@@ -18,3 +18,5 @@
         - a program that has three functions that all have their own type of array. 
     - numericArray program:
         - performing sum, average, highest, and lowest algorithms on numeric arrays
+    - displayArray7 program:
+        - function that should accept a 2D array and display it's contents on the screen. The function also works for any 2D array with 7 columns.
