@@ -11,7 +11,7 @@ int main()
 
     int yearly_401, years_until_retirement; 
     long int retirement_total = 0;
-    double yearly_yeild = 0.14;
+    double yearly_yeild = 0.08;
     string file_name;
 
     cout << "first, lets enter the name of this file: ";
