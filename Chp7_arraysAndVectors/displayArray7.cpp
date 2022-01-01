@@ -1,10 +1,11 @@
 #include <iostream>
 #include <iomanip>
+#include <string>
 using namespace std;
 
 const int COL = 7; //global column variable
 
-void displayArray(const int [][COL], int); //function prototype
+void displayArray(const int [][COL], int, string); //function prototype
 
 int main()
 {   
@@ -14,15 +15,16 @@ int main()
     int autos[AUTOS_ROWS][COL] = {};
     int cats[CATS_ROWS][COL] = {};
 
-    displayArray(hours, HOURS_ROWS);
-    displayArray(stamps, STAMPS_ROWS);
-    displayArray(autos, AUTOS_ROWS);
-    displayArray(cats, CATS_ROWS);
+    displayArray(hours, HOURS_ROWS, "hours");
+    displayArray(stamps, STAMPS_ROWS, "stamps");
+    displayArray(autos, AUTOS_ROWS, "autos");
+    displayArray(cats, CATS_ROWS, "cats");
     return 0;
 }
 
-void displayArray(const int num[][COL], int rows)
+void displayArray(const int num[][COL], int rows, string name)
 {
+    cout << "2D array for " << name << endl;
     for (int x = 0; x < rows; x++)
     {
         for (int y = 0; y < COL; y++)
