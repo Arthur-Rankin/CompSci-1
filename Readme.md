@@ -21,4 +21,6 @@
     - displayArray7 program:
         - programs that has a function that should accepts a 2D array and displays its contents on the screen. The function also works for any 2D array with 7 columns.
 - Chapter 8: Searching and Sorting Arrays
-    - 
+    - binarySearch program:
+        - aa complete program using the binarySearch funtion. It searches an array of employee ID numbers for a specific value given by the user;
+    - a complete program that uses the linearSearch function. It searches the five-element array tests to find a score of 100.
