@@ -11,7 +11,7 @@
     - inputLoop Program: 
         - Reades the file created by outputLoop program and displays the information. I am careful to check to make sure that they file exists. The while loop checks to make sure that an item still exists to print out to the console.
 - Chapter 6: Functions
-    - evenOrOdd program:
+    - evenOrOdd program:t
         - simple program that checks to see if a number given by the user is even or odd and then tells the user which it is. 
 - Chapter 7: Arrays and Vectors
     - funcsLoopsAndArrays program:
@@ -20,3 +20,5 @@
         - performing sum, average, highest, and lowest algorithms on numeric arrays
     - displayArray7 program:
         - programs that has a function that should accepts a 2D array and displays its contents on the screen. The function also works for any 2D array with 7 columns.
+- Chapter 8: Searching and Sorting Arrays
+    - 
