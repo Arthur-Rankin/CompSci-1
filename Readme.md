@@ -23,4 +23,7 @@
 - Chapter 8: Searching and Sorting Arrays
     - binarySearch program:
         - aa complete program using the binarySearch funtion. It searches an array of employee ID numbers for a specific value given by the user.
-    - a complete program that uses the linearSearch function. It searches the five-element array tests to find a score of 100.
+    - linearSearch program:
+        - a complete program that uses the linearSearch function. It searches the five-element array tests to find a score of 100.
+    - bubbleSort 
+        - bubble sorting function

@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+void swap(int&, int&); //function prototype
+
 void bubbleSort(int array[], int size)
 {
     int maxEle;
@@ -11,8 +13,15 @@ void bubbleSort(int array[], int size)
         {
             if(array[index] > array[index + 1])
             {
-                swap(array[index] > array[index + 1])
-            }
+                swap(array[index], array[index + 1]);
+            };
         }
     }
+}
+
+void swap(int& a, int& b) 
+{
+    int temp = a;
+    a = b;
+    b = temp;
 }
