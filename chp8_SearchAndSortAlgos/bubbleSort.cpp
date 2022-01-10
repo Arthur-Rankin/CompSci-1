@@ -7,6 +7,7 @@ void bubbleSort(int array[], int size)
 {
     int maxEle;
     int index;
+    
     for(maxEle = size - 1; maxEle > 0; maxEle--)
     {
         for (index = 0; index < maxEle; index++)
