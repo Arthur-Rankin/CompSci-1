@@ -1,13 +1,13 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 
 int main()
 {
-    int average;
-    int num = 7;
-    average = num + 3;
-    cout << average << ", " << num;
+    int score = 6;
+    ++score;
+    cout << score;
     return 0;
 }
 

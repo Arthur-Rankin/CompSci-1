@@ -5,11 +5,11 @@ bool isEven(int);
 
 int main()
 {
-    int val;
+    int val-i;
     cout << "enter an integer and I will tell you ";
     cout << "if it is even or odd: ";
-    cin >> val;
-    isEven(val) ? cout << val << " is even.\n" : cout << val << " is odd.\n";
+    cin >> val-i;
+    isEven(val-i) ? cout << val-i << " is even.\n" : cout << val-i << " is odd.\n";
     return 0;
 }
 
